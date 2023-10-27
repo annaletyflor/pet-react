@@ -1,0 +1,41 @@
+.sobre {
+  display: block;
+  text-align: justify;
+  width: 800px;
+  /* height: 400px; */
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.sobre h1 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background: #488fb1;
+  border-radius: 15px;
+  color: white;
+}
+
+.servicos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.servicos img {
+  border-radius: 50%;
+  width: 15rem;
+  height: 15rem;
+  margin: 5px;
+  margin-top: 35px;
+  object-fit: cover;
+  border: 2px solid #488fb1;
+  -webkit-box-shadow: 0px 0px 127px 0px rgba(88, 143, 177, 0.9);
+  -moz-box-shadow: 0px 0px 127px 0px rgba(88, 143, 177, 0.9);
+  box-shadow: 0px 0px 127px 0px rgba(88, 143, 177, 0.9);
+}
+
+.servicos p:nth-of-type(4) {
+  margin-bottom: 5rem;
+}
